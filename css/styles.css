@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    background-color: #343A40;
+}
+
+.Logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.Logo:hover {
+    transform: scale(1.3);
+}
+
+.Logo:active {
+    transform: scale(1.1);
+}
+
+.Logo-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-up-list {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.nav-up-list li {
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-up-list a {
+    text-decoration: none;
+    color: #DEE2E6;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all .2s ease;
+}
+
+.nav-up-list a:hover {
+    color: #ADB5BD;
+}
+
+.nav-up-list a:active {
+    color: #6C757D;
+}
+
+.Button-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.Button-Container a {
+    text-decoration: none;
+}
+
+.Button-Container button {
+    font-size: 12px;
+    border: none;
+    border-style: none;
+    border-radius: 40px;
+    background-color: #E9ECEF;
+    padding: 6px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.Button-Container button:hover {
+    background-color: #CED4DA;
+    padding: 5px 11px;
+    font-size: 14px;
+}
+
+.Button-Container button:active {
+    background-color: #ADB5BD;
+}
+
+.Body {
+    padding: 50px 10%;
+}
+
+.Game-H2 {
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+.Game-Para {
+    font-size: 16px;
+    font-family: Ubuntu;
+    padding-bottom: 150px;
+    padding-right: 40%;
+}
+
+.Game-Png {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-left: 60%;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.Game-Png:hover {
+    transform: rotate(-10deg);
+}
+
+.Game-Png:active {
+    transform: scale(1.1);
+}
+
+.About-H2 {
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.About-Para {
+    font-size: 16px;
+    font-family: Ubuntu;
+    padding-bottom: 150px;
+    padding-right: 40%;
+}
+
+.Form-H2 {
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.Form-Para {
+    font-size: 16px;
+    font-family: Ubuntu;
+    padding-bottom: 150px;
+    padding-right: 40%;
+}
+
+.Form-Png {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    margin-left: 60%;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.Form-Png:hover {
+    transform: scale(1.1);
+}
